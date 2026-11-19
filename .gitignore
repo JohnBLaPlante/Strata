@@ -9,3 +9,6 @@ __pycache__/
 .databricks
 
 .Renviron
+
+# Posit Publisher records contain internal server URLs and content IDs
+.posit/

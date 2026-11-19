@@ -10,10 +10,10 @@ targets:
     mode: development
     default: true
     workspace:
-      host: https://adb-3256282566390055.15.azuredatabricks.net
+      host: https://<your-workspace>.azuredatabricks.net
 
   ## Optionally, there could be 'staging' or 'prod' targets here.
   #
   # prod:
   #   workspace:
-  #     host: https://adb-3256282566390055.15.azuredatabricks.net
+  #     host: https://<your-workspace>.azuredatabricks.net

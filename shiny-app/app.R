@@ -11,8 +11,8 @@ source("mcp_client.R")
 # Configuration
 # ---------------------------------------------------------------------------
 
-MCP_URL <- "https://pct.demo.soleng.posit.it/ovintiv/mcp"
-MCP_AUTH <- paste("Key", Sys.getenv("CONNECT_API_KEY", "uF9CtvVAKFkPhNSSUgdvXuNtsbmd4AKD"))
+MCP_URL <- Sys.getenv("MCP_URL", "https://your-connect-server.com/content/<content-id>/mcp")
+MCP_AUTH <- paste("Key", Sys.getenv("CONNECT_API_KEY"))
 
 # LLM model — override with LLM_MODEL env var if desired
 LLM_MODEL <- Sys.getenv("LLM_MODEL", "claude-sonnet-4-6")
