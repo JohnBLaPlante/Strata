@@ -1,0 +1,9 @@
+[project]
+name = "ovintiv-mcp"
+version = "0.1.0"
+requires-python = ">=3.11"
+description = "Ovintiv Oil & Gas Explorer — FastMCP server for Posit Connect"
+dependencies = [
+    "fastmcp>=2.0",
+    "uvicorn[standard]",
+]

@@ -1,0 +1,16 @@
+Package: OvintivExplorer
+Title: Ovintiv O&G Explorer — MCP Chat Interface
+Version: 0.1.0
+Description: A Shiny chat application that connects to the Ovintiv O&G Explorer
+    FastMCP server hosted on Posit Connect and exposes a natural-language interface
+    for exploring synthetic well inventory, production histories, completion designs,
+    type curves, and economics across four unconventional plays.
+Author: Ovintiv Demo
+License: Proprietary
+Depends: R (>= 4.3.0)
+Imports:
+    shiny,
+    bslib,
+    shinychat,
+    elmer,
+    purrr

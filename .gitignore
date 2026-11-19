@@ -1,0 +1,9 @@
+*.pyc
+*.pyo
+__pycache__/
+.venv/
+
+# MCP config contains API keys — do not commit
+.mcp.json
+
+.databricks
