@@ -229,7 +229,7 @@ def _make_wells() -> list[dict]:
             "region": cfg["region"],
             "play_type": cfg["play_type"],
             "status": status,
-            "operator": "Ovintiv",
+            "operator": "Strata",
             "spud_date": spud_date.isoformat() if months_since_spud > 0 else None,
             "first_production_date": first_prod.isoformat() if first_prod else None,
             "months_producing": months_producing,
@@ -402,10 +402,10 @@ def _calculate_economics(well: dict) -> dict:
 # ---------------------------------------------------------------------------
 
 mcp = FastMCP(
-    "Ovintiv O&G Explorer",
+    "Strata O&G Explorer",
     instructions=(
         "You have access to synthetic oil and gas exploration data representing "
-        "Ovintiv's major North American unconventional plays: Montney (BC Canada), "
+        "Strata's major North American unconventional plays: Montney (BC Canada), "
         "Duvernay (AB Canada), Wolfcamp A (Permian, TX), and STACK/Meramec (OK). "
         "Use the available tools to explore well inventory, production histories, "
         "completion designs, and economics. All data is synthetic for demonstration purposes."

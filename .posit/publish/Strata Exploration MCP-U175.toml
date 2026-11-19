@@ -4,11 +4,11 @@
 "$schema" = "https://cdn.posit.co/publisher/schemas/posit-publishing-schema-v3.json"
 type = "python-fastapi"
 entrypoint = "server:app"
-title = "Ovintiv Exploration MCP"
+title = "Strata Exploration MCP"
 files = [
     "/server.py",
     "/requirements.txt",
-    "/.posit/publish/Ovintiv Exploration MCP-U175.toml",
+    "/.posit/publish/Strata Exploration MCP-U175.toml",
     "/.posit/publish/deployments/deployment-6QVD.toml",
 ]
 validate = true

@@ -1,9 +1,9 @@
-# Ovintiv O&G Explorer — FastMCP Server
+# Strata O&G Explorer — FastMCP Server
 
 A demonstration **MCP (Model Context Protocol) server** built with [FastMCP](https://github.com/jlowin/fastmcp),
 deployable to **Posit Connect**, and connectable from **Claude Code** on the desktop.
 
-The server exposes synthetic oil and gas exploration data covering Ovintiv's major
+The server exposes synthetic oil and gas exploration data covering Strata's major
 North American unconventional plays:
 
 | Field | Formation | Region |
@@ -83,8 +83,8 @@ rsconnect add --server https://your-connect-server.com --api-key YOUR_API_KEY --
 ```bash
 rsconnect deploy fastapi \
   --server myconnect \
-  --name ovintiv-oilgas-mcp \
-  --title "Ovintiv O&G Explorer MCP" \
+  --name strata-oilgas-mcp \
+  --title "Strata O&G Explorer MCP" \
   server.py
 ```
 
@@ -124,7 +124,7 @@ Add the following to your Claude Code MCP configuration.
 ```json
 {
   "mcpServers": {
-    "ovintiv-oilgas": {
+    "strata-oilgas": {
       "type": "http",
       "url": "https://your-connect-server.com/content/<content-id>/mcp",
       "headers": {
@@ -140,7 +140,7 @@ Add the following to your Claude Code MCP configuration.
 ```json
 {
   "mcpServers": {
-    "ovintiv-oilgas": {
+    "strata-oilgas": {
       "type": "http",
       "url": "https://your-connect-server.com/content/<content-id>/mcp"
     }
@@ -149,7 +149,7 @@ Add the following to your Claude Code MCP configuration.
 ```
 
 After saving the config, restart Claude Code. You should see
-**ovintiv-oilgas** listed under available MCP servers.
+**strata-oilgas** listed under available MCP servers.
 
 ---
 
@@ -169,7 +169,7 @@ Once connected, try asking Claude Code:
 ## Project Structure
 
 ```
-ovintiv/
+strata/
 ├── server.py          # FastMCP server (all tools + synthetic data)
 ├── requirements.txt   # Python dependencies
 ├── pyproject.toml     # Project metadata

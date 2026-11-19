@@ -5,7 +5,7 @@ server_url = "https://pct.demo.soleng.posit.it"
 client_version = "2.8.0"
 created_at = "2026-09-03T21:12:28.480Z"
 type = "r-shiny"
-configuration_name = "Ovintive QueryChat App-F012"
+configuration_name = "Strata QueryChat App-F012"
 id = "f7a817af-5d65-441e-92a0-3863417f1765"
 dashboard_url = "https://pct.demo.soleng.posit.it/connect/#/apps/f7a817af-5d65-441e-92a0-3863417f1765"
 direct_url = "https://pct.demo.soleng.posit.it/content/f7a817af-5d65-441e-92a0-3863417f1765/"
@@ -14,7 +14,7 @@ deployed_at = "2026-09-03T21:15:17.855Z"
 bundle_id = "384"
 bundle_url = "https://pct.demo.soleng.posit.it/__api__/v1/content/f7a817af-5d65-441e-92a0-3863417f1765/bundles/384/download"
 files = [
-    ".posit/publish/Ovintive QueryChat App-F012.toml",
+    ".posit/publish/Strata QueryChat App-F012.toml",
     ".posit/publish/deployments/deployment-20T2.toml",
     "app.R",
     "mcp-config.json",
@@ -26,10 +26,10 @@ files = [
 "$schema" = "https://cdn.posit.co/publisher/schemas/posit-publishing-schema-v3.json"
 type = "r-shiny"
 entrypoint = "app.R"
-title = "Ovintive QueryChat App"
+title = "Strata QueryChat App"
 files = [
     "/app.R",
-    "/.posit/publish/Ovintive QueryChat App-F012.toml",
+    "/.posit/publish/Strata QueryChat App-F012.toml",
     "/.posit/publish/deployments/deployment-20T2.toml",
     "/mcp-config.json",
     "/mcp_client.R",

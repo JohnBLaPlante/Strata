@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "ovintiv-oilgas": {
+    "strata-oilgas": {
       "url": "https://pct.demo.soleng.posit.it/ovintiv/mcp",
       "headers": {
         "Authorization": "Key ${CONNECT_API_KEY}"

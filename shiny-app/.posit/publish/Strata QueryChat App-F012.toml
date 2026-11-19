@@ -4,10 +4,10 @@
 "$schema" = "https://cdn.posit.co/publisher/schemas/posit-publishing-schema-v3.json"
 type = "r-shiny"
 entrypoint = "app.R"
-title = "Ovintive QueryChat App"
+title = "Strata QueryChat App"
 files = [
     "/app.R",
-    "/.posit/publish/Ovintive QueryChat App-F012.toml",
+    "/.posit/publish/Strata QueryChat App-F012.toml",
     "/.posit/publish/deployments/deployment-20T2.toml",
     "/mcp-config.json",
     "/mcp_client.R",

@@ -22,7 +22,7 @@ LLM_MODEL <- Sys.getenv("LLM_MODEL", "claude-sonnet-4-6")
 # ---------------------------------------------------------------------------
 
 SYSTEM_PROMPT <- "
-You are an expert oil and gas exploration assistant for Ovintiv, with live
+You are an expert oil and gas exploration assistant for Strata, with live
 access to well data for major North American unconventional plays
 through MCP tools.
 

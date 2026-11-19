@@ -1,6 +1,6 @@
-# Ovintiv O&G Explorer — Shiny Chat App
+# Strata O&G Explorer — Shiny Chat App
 
-A Shiny application that connects to the **Ovintiv O&G Explorer FastMCP server**
+A Shiny application that connects to the **Strata O&G Explorer FastMCP server**
 on Posit Connect and provides a natural-language chat interface for exploring
 synthetic well data.
 
@@ -73,8 +73,8 @@ library(rsconnect)
 
 rsconnect::deployApp(
   appDir     = "shiny-app/",
-  appName    = "ovintiv-oilgas-chat",
-  appTitle   = "Ovintiv O&G Explorer",
+  appName    = "strata-oilgas-chat",
+  appTitle   = "Strata O&G Explorer",
   forceUpdate = TRUE
 )
 ```
